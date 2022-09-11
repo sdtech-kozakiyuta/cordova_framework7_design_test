@@ -1,0 +1,103 @@
+/* This is a CSS file */
+
+@font-face {
+    font-family: 'MazdaFont';
+    src: url(/assets/font/MazdaType-Regular.otf);
+}
+
+.mbutton {
+    color: #000000;
+    border-image: url(/assets/img/btn_popup_white_small_n.png);
+    border-image-slice: 5;
+    background-color: transparent;
+    height: 36px;
+    font-family: MazdaFont;
+    text-transform: none;
+}
+
+.styte-test {
+    --f7-input-outline-border-color: #FF00FF;
+    --f7-input-placeholder-color: #FF00FF;
+    --f7-input-text-color:#FF00FF;
+    color: #FF00FF;
+    border-image: url(/assets/img/btn_popup_white_small_n.png);
+    border-image-slice: 10;
+}
+
+.grid-style {
+    --f7-grid-gap: 10px
+}
+
+.grid-demo div[class*='col'] {
+    background: #fff;
+    text-align: center;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.custom-grid-demo {
+    --f7-grid-row-gap: 16px;
+    --f7-grid-gap: 32px;
+    --f7-block-padding-horizontal: 8px;
+}
+.grid-resizable-demo div[class*='col'] {
+    margin-bottom: 0;
+}
+.grid-resizable-demo .demo-col-center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-range-slider {
+    --f7-range-bar-bg-color: red;
+    /* --f7-range-bar-bg-color: linear-gradient(blue, pink); */
+}
+
+.slide-container {
+    width: 300px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right,blue, pink);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+        border-radius: 50%;
+    background-image: url('https://img.icons8.com/material-outlined/344/average-2.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+        border-radius: 50%;
+    background-image: url('https://img.icons8.com/material-outlined/344/average-2.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
