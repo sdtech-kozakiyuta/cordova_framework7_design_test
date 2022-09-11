@@ -1,4 +1,4 @@
-# Mazda_ui_test_app
+# cordova_framework7_design_test
 
 ## Framework7 CLI Options
 
