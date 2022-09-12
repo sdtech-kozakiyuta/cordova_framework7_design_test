@@ -101,3 +101,13 @@
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+.mazda-input {
+    border: #000;
+}
+
+.mazda-modal-style {
+    margin: 20% 10%;
+    width: 80%;
+    height: 60%;
+}
