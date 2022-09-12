@@ -1,8 +1,6 @@
 import React from 'react';
-import { Page, Navbar, Block, BlockTitle, Button, Col, Row, ListInput, List, Icon } from 'framework7-react';
-import MButton from '../../components/m_button'
+import { Page, Navbar, Block, BlockTitle, ListInput, List, } from 'framework7-react';
 import '../../css/mazda_style.css'
-import OTPInput, { ResendOTP } from "otp-input-react";
 import OtpInputCard from '../../components/opt_input_cart'
 
 const InputFieldsTestsPage = (props) => (
